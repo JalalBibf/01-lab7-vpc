@@ -20,7 +20,6 @@ module "vpc" {
     single_nat_gateway = var.vpc_single_nat_gateway
     one_nat_gateway_per_az = var.vpc_one_nat_gateway_per_az
 
-
     # VPC DNS Parameters
     enable_dns_hostnames = true
     enable_dns_support = true
